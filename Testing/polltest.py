@@ -1,0 +1,18 @@
+import unittest
+from survey import AnonymousSurvey
+
+class TestAnonmyousSurvey(unittest.TestCase):
+ """Tests for the class AnonymousSurvey"""
+
+def test_store_three_responses(self):
+   """Test that three individual responses are stored properly."""
+   question = "What language did you first learn to speak?"
+   my_survey = AnonymousSurvey(question)
+   responses = ['English', 'Spanish', 'Mandarin']
+   for response in responses:
+      my_survey.store_response(response)
+      self.assertIn(response, my_survey.responses)
+ 
+   
+  
+unittest.main()

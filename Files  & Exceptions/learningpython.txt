@@ -1,0 +1,8 @@
+Ive learnt how to build classes in python
+Ive learnt various python methods
+Ive learnt how to write simple programs in python 
+Ive learnt how to work with lists in python
+Ive leant how to use functions in python
+Ive learnt how to use loops in python
+
+
